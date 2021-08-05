@@ -39,7 +39,7 @@ class ProductosAlimentarios {
     private final Double PRECIO_BASE = 80.0;
     private final char TIPO_ALIMENTO = 'N';
     private final Integer PESO_BASE = 5;
-    
+
     private Double precioBase;
     private char tipoAlimento;
     private Integer peso;
@@ -61,9 +61,11 @@ class ProductosAlimentarios {
         this.peso = peso;
         this.tipoAlimento = tipoAlimento;
     }
-    public void comprobarTipoAlimento(char tipoAlimento){
+
+    //metodo no funcional
+   /*  public void comprobarTipoAlimento(char tipoAlimento){
     // Condicion validar tipo de alimento N,C
-    }
+    } */
     public Double calcularPrecio(){
         // Codigo calcular precio final        
         Double adicion = 0.0;
@@ -105,9 +107,10 @@ class Bebidas extends ProductosAlimentarios {
         super(precioBase, peso);
         this.lugarOrigen = lugarOrigen;
     }
-    public void comprobarLugarOrigen(char lugarOrigen){
+    //metodo no funcional
+    /* public void comprobarLugarOrigen(char lugarOrigen){
     // Condicion validar lugar de origen N,I
-    }
+    } */
     public Double calcularPrecio(){
         // Codigo calcular precio final
         Double adicion =0.;
